@@ -3,7 +3,7 @@ const router = express.Router();
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 
-// Kullanıcı verilerini hafızada tutacağız
+
 let users = [];
 
 // Kullanıcı Kayıt
